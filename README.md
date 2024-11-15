@@ -1,1 +1,3 @@
+# 👋 Hi! I'm Oad!
+
 I'm Phanuphat "Oad" Srisukhawasu, a Computer Science undergraduate at the National University of Singapore. Join me as I explore the world of matrix computation, parallel computing, and creating interactive tools for education!

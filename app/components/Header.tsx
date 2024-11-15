@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 const Header = () => {
   return (
     <div className="bg-base b navbar sticky top-0 z-50 backdrop-blur-sm">
       <div className="navbar-start flex items-center gap-3 pl-4">
         <div className="h-10 w-10 overflow-hidden rounded-full">
-          <img
+          <Image
             src="myimage.jpeg"
             alt="Phanuphat S."
             className="h-full w-full object-cover"

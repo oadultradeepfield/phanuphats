@@ -10,7 +10,7 @@ const Page = () => {
       className="flex min-h-screen flex-col bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: "url('background.svg')",
-        backgroundColor: "rgba(255, 255, 255, 0.8)",
+        backgroundColor: "rgba(255, 255, 255, 0.65)",
         backgroundBlendMode: "overlay",
       }}
     >

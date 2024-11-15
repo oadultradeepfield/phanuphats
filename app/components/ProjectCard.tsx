@@ -35,7 +35,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className="card-body">
         <h2 className="card-title text-2xl">
           {title}
-          <div className="badge badge-neutral">{category}</div>
+          <div className="badge badge-neutral py-3">{category}</div>
         </h2>
         <div className="mb-3 text-base">{description}</div>
         <div className="card-actions justify-end">

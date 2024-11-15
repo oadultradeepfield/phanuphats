@@ -27,7 +27,7 @@ const projects = [
   {
     imageUrl: "timeseriesviz.gif",
     imageAlt: "TimeSeriesViz",
-    title: "TimeSeriesViz",
+    title: "TSViz",
     description:
       "An interactive Streamlit app for visualizing time series data, allowing real-time analysis with adjustable hyperparameters for ARIMA, Random Forest, and LightGBM.",
     category: "🤖 Machine Learning",

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface ProjectCardProps {
   imageUrl: string;
   imageAlt: string;
@@ -21,7 +23,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     <div className="card w-96 border-2 border-[#e0e0e0] bg-base-100 shadow-lg transition-all duration-300 hover:shadow-xl">
       <figure className="h-48">
         <a href={link} target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src={imageUrl}
             alt={imageAlt}
             className="h-full w-full object-cover"

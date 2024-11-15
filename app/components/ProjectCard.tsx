@@ -26,6 +26,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <Image
             src={imageUrl}
             alt={imageAlt}
+            width={500}
+            height={500}
             className="h-full w-full object-cover"
           />
         </a>

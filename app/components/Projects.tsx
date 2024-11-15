@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    imageUrl: "keepactive.jpeg",
+    imageUrl: "/keepactive.jpeg",
     imageAlt: "KeepActive",
     title: "KeepActive",
     description:
@@ -15,7 +15,7 @@ const projects = [
     link: "https://keepactive-frontend.vercel.app/",
   },
   {
-    imageUrl: "strassen.png",
+    imageUrl: "/strassen.png",
     imageAlt: "Strassen Algorithm",
     title: "Strassen Algo.",
     description:
@@ -25,7 +25,7 @@ const projects = [
     link: "https://github.com/oadultradeepfield/parallel-and-strassen-matrix-multiplication",
   },
   {
-    imageUrl: "timeseriesviz.gif",
+    imageUrl: "/timeseriesviz.gif",
     imageAlt: "TimeSeriesViz",
     title: "TSViz",
     description:
@@ -35,7 +35,7 @@ const projects = [
     link: "https://timeseriesviz.streamlit.app/",
   },
   {
-    imageUrl: "uniflixsg.jpeg",
+    imageUrl: "/uniflixsg.jpeg",
     imageAlt: "UniFliXsg",
     title: "UniFliXsg",
     description:
@@ -45,7 +45,7 @@ const projects = [
     link: "https://huggingface.co/spaces/oadultradeepfield/uniflixsg",
   },
   {
-    imageUrl: "galaxy10.png",
+    imageUrl: "/galaxy10.png",
     imageAlt: "Galaxy10",
     title: "Galaxy10",
     description:

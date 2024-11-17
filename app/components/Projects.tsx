@@ -20,7 +20,7 @@ const projects = [
     title: "Strassen Algo.",
     description:
       "An implementation of Strassen's matrix multiplication and standard method with parallel processing capabilities.",
-    category: "🤘🏻 Matrix Comp.",
+    category: "🦦 Pet Projects",
     techStack: ["Java", "Fork/Join framework"],
     link: "https://github.com/oadultradeepfield/parallel-and-strassen-matrix-multiplication",
   },
@@ -58,9 +58,9 @@ const projects = [
 
 const categories = [
   "🌐 All Projects",
+  "🦦 Pet Projects",
   "💻 Web Development",
   "🤖 Machine Learning",
-  "🤘🏻 Matrix Comp.",
 ];
 
 const Projects: React.FC = () => {
@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 justify-items-center gap-10 md:grid-cols-2 xl:grid-cols-3">
+      <div className="grid grid-cols-1 justify-items-center gap-12 md:grid-cols-2 xl:grid-cols-3">
         {filteredProjects.map((project, index) => (
           <ProjectCard
             key={index}

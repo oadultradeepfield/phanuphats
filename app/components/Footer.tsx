@@ -3,7 +3,7 @@ import { IoLogoGithub, IoMdMail } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <footer className="text-content flex flex-col items-center gap-4 p-6 md:flex-row md:justify-between">
+    <footer className="text-content flex flex-col items-center gap-4 py-6 md:flex-row md:justify-between">
       <aside className="text-center md:text-left">
         <div className="text-base">
           Copyright © {new Date().getFullYear()} - All rights reserved.

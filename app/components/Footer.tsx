@@ -29,15 +29,6 @@ const Footer = () => {
           <IoLogoGithub size={24} />
         </a>
         <a
-          href="https://medium.com/@oadultradeepfield"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Medium Profile"
-          className="transition-colors hover:text-gray-600"
-        >
-          <FaMedium size={24} />
-        </a>
-        <a
           href="mailto:phanuphat.srisukhawasu@gmail.com"
           aria-label="Email Contact"
           className="transition-colors hover:text-gray-600"

@@ -5,9 +5,10 @@ const Hero = () => (
         <h1 className="text-4xl font-bold md:text-5xl">👋 Hi! I'm Oad!</h1>
         <p className="py-4 text-lg md:text-xl">
           I'm Phanuphat "Oad" Srisukhawasu, a Computer Science undergraduate at
-          the National University of Singapore. Join me as I explore the world
-          of matrix computation, parallel computing, and creating interactive
-          tools for education!
+          National University of Singapore. I'm driven by a passion for
+          optimization. I constantly look for ways to make everyday processes
+          faster and more enjoyable. I also love creating interactive learning
+          tools and visuals that help others grasp difficult concepts easily.
         </p>
       </div>
     </div>

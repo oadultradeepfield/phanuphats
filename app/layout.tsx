@@ -9,7 +9,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Phanuphat (Oad) Srisukhawasu",
-  description: `I'm Phanuphat "Oad" Srisukhawasu, a Computer Science undergraduate at the National University of Singapore. Join me as I explore the world of matrix computation, parallel computing, and creating interactive tools to enhance education!`,
+  description: `I'm Phanuphat "Oad" Srisukhawasu, a Computer Science undergraduate at
+          National University of Singapore. Right now, I'm focused on two things
+          I enjoy: improving everyday processes to make them faster and more
+          fun, and creating interactive tools that make learning engaging and
+          exciting for others.`,
   keywords: [
     "Portfolio",
     "Software Engineer",

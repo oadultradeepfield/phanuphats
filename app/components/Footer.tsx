@@ -1,4 +1,4 @@
-import { FaLinkedin, FaMedium } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { IoLogoGithub, IoMdMail } from "react-icons/io";
 
 const Footer = () => {

@@ -1,5 +1,5 @@
 const config = {
-  siteUrl: "https://www.phanuphats.com",
+  siteUrl: "https://phanuphats.com",
   generateRobotsTxt: true,
 };
 

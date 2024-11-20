@@ -54,6 +54,16 @@ const projects = [
     techStack: ["Python", "Streamlit", "PyTorch"],
     link: "https://tao21-galaxyclassification.streamlit.app/?embed_options=light_theme",
   },
+  {
+    imageUrl: "/deephcc.jpeg",
+    imageAlt: "DeepHCC",
+    title: "DeepHCC",
+    description:
+      "A YOLOv5m-based model for real-time particle detection in cloud chambers (F1: 86.24%, 61 FPS), designed as an innovative tool for physics education.",
+    category: "🤖 Machine Learning",
+    techStack: ["Python", "OpenCV", "PyTorch"],
+    link: "https://iopscience.iop.org/article/10.1088/1742-6596/2653/1/012007",
+  },
 ];
 
 const categories = [

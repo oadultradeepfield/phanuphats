@@ -25,7 +25,7 @@ const projects = [
     link: "https://github.com/oadultradeepfield/parallel-and-strassen-matrix-multiplication",
   },
   {
-    imageUrl: "/timeseriesviz.gif",
+    imageUrl: "/timeseriesviz.webp",
     imageAlt: "TimeSeriesViz",
     title: "TSViz",
     description:

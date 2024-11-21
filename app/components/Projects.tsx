@@ -9,7 +9,7 @@ const projects = [
     imageAlt: "Prompt++",
     title: "Prompt++",
     description:
-      "A web app that generates customized prompts from templates for LLMs in tasks like content creation, code generation, and debugging.",
+      "A web app that generates customized prompts from templates for LLMs in tasks like content creation, code generation, etc.",
     category: "💻 Web Development",
     techStack: ["Next.js", "Tailwind CSS", "daisyUI"],
     link: "https://promptpp.vercel.app/",

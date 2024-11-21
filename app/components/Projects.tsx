@@ -5,6 +5,16 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    imageUrl: "/promptpp.webp",
+    imageAlt: "Prompt++",
+    title: "Prompt++",
+    description:
+      "A web app that maintains active status for user websites on free hosting by sending periodic GET requests.",
+    category: "💻 Web Development",
+    techStack: ["Next.js", "Tailwind CSS", "daisyUI"],
+    link: "https://promptpp.vercel.app/",
+  },
+  {
     imageUrl: "/keepactive.jpeg",
     imageAlt: "KeepActive",
     title: "KeepActive",

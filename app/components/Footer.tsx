@@ -1,4 +1,4 @@
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaBlog } from "react-icons/fa";
 import { IoLogoGithub, IoMdMail } from "react-icons/io";
 
 const Footer = () => {
@@ -27,6 +27,15 @@ const Footer = () => {
           className="transition-colors hover:text-gray-600"
         >
           <IoLogoGithub size={24} />
+        </a>
+        <a
+          href="https://blog.phanuphats.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Personal Blog"
+          className="transition-colors hover:text-gray-600"
+        >
+          <FaBlog size={24} />
         </a>
         <a
           href="mailto:phanuphat.srisukhawasu@gmail.com"

@@ -17,10 +17,10 @@ const Header = () => {
       </div>
       <div className="navbar-end py-2">
         <a
-          href="https://drive.google.com/file/d/1MbOBIRV3VBQhgRadbAJvARPpAw1u_FC6/view?usp=sharing"
+          href="https://drive.google.com/file/d/1MbOBIRV3VBQhgRadbAJvARPpAw1u_FC6/view"
           target="_blank"
           rel="noopener noreferrer"
-          className="xs:text-small btn btn-neutral btn-active rounded-2xl sm:text-base"
+          className="btn btn-neutral btn-active rounded-2xl px-3 py-2 text-sm sm:px-4 sm:text-base"
         >
           View Resume
         </a>

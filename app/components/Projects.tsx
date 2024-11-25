@@ -108,18 +108,19 @@ const Projects: React.FC = () => {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 justify-items-center gap-12 md:grid-cols-2 xl:grid-cols-3">
+      <div className="grid auto-rows-fr grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
         {filteredProjects.map((project, index) => (
-          <ProjectCard
-            key={index}
-            imageUrl={project.imageUrl}
-            imageAlt={project.imageAlt}
-            title={project.title}
-            description={project.description}
-            category={project.category}
-            techStack={project.techStack}
-            link={project.link}
-          />
+          <div key={index} className="h-full">
+            <ProjectCard
+              imageUrl={project.imageUrl}
+              imageAlt={project.imageAlt}
+              title={project.title}
+              description={project.description}
+              category={project.category}
+              techStack={project.techStack}
+              link={project.link}
+            />
+          </div>
         ))}
       </div>
     </div>

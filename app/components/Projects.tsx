@@ -30,7 +30,7 @@ const projects = [
     title: "Strassen Algo.",
     description:
       "An implementation of Strassen's matrix multiplication and standard method with parallel processing capabilities.",
-    category: "🦦 Pet Projects",
+    category: "🌟 Pet Projects",
     techStack: ["Java", "Fork/Join framework"],
     link: "https://github.com/oadultradeepfield/parallel-and-strassen-matrix-multiplication",
   },
@@ -78,7 +78,7 @@ const projects = [
 
 const categories = [
   "🌐 All Projects",
-  "🦦 Pet Projects",
+  "🌟 Pet Projects",
   "💻 Web Development",
   "🤖 Machine Learning",
 ];

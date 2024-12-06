@@ -5,26 +5,6 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    imageUrl: "/promptpp.webp",
-    imageAlt: "Prompt++",
-    title: "Prompt++",
-    description:
-      "A web app that generates customized prompts from templates for LLMs in tasks like content creation, code generation, etc.",
-    category: "💻 Web Development",
-    techStack: ["Next.js", "Tailwind CSS", "daisyUI"],
-    link: "https://promptpp.vercel.app/",
-  },
-  {
-    imageUrl: "/keepactive.jpeg",
-    imageAlt: "KeepActive",
-    title: "KeepActive",
-    description:
-      "A web app that maintains active status for user websites on free hosting by sending periodic GET requests.",
-    category: "💻 Web Development",
-    techStack: ["Gin", "GORM", "React", "Material UI"],
-    link: "https://keepactive-frontend.vercel.app/",
-  },
-  {
     imageUrl: "/strassen.png",
     imageAlt: "Strassen Algorithm",
     title: "Strassen Algo.",
@@ -33,6 +13,26 @@ const projects = [
     category: "🌟 Pet Projects",
     techStack: ["Java", "Fork/Join framework"],
     link: "https://github.com/oadultradeepfield/parallel-and-strassen-matrix-multiplication",
+  },
+  {
+    imageUrl: "/galaxy10.png",
+    imageAlt: "Galaxy10",
+    title: "Galaxy10",
+    description:
+      "A Streamlit app for galaxy morphology classification using ConvNeXtTiny (76.80% Top-1 and 95.51% Top-3 accuracy). The model outperformed VGG16, DenseNet121, and EfficientNetV2S by 5% in accuracy.",
+    category: "🤖 Machine Learning",
+    techStack: ["Python", "Streamlit", "PyTorch"],
+    link: "https://tao21-galaxyclassification.streamlit.app/?embed_options=light_theme",
+  },
+  {
+    imageUrl: "/deephcc.jpeg",
+    imageAlt: "DeepHCC",
+    title: "DeepHCC",
+    description:
+      "A YOLOv5m-based model for real-time particle detection in cloud chambers (F1: 86.24%, 61 FPS), designed as an innovative tool for physics education.",
+    category: "🤖 Machine Learning",
+    techStack: ["Python", "OpenCV", "PyTorch"],
+    link: "https://iopscience.iop.org/article/10.1088/1742-6596/2653/1/012007",
   },
   {
     imageUrl: "/timeseriesviz.webp",
@@ -55,25 +55,25 @@ const projects = [
     link: "https://huggingface.co/spaces/oadultradeepfield/uniflixsg",
   },
   {
-    imageUrl: "/galaxy10.png",
-    imageAlt: "Galaxy10",
-    title: "Galaxy10",
+    imageUrl: "/promptpp.webp",
+    imageAlt: "Prompt++",
+    title: "Prompt++",
     description:
-      "A Streamlit app for galaxy morphology classification using ConvNeXtTiny (76.80% Top-1 and 95.51% Top-3 accuracy). The model outperformed VGG16, DenseNet121, and EfficientNetV2S by 5% in accuracy.",
-    category: "🤖 Machine Learning",
-    techStack: ["Python", "Streamlit", "PyTorch"],
-    link: "https://tao21-galaxyclassification.streamlit.app/?embed_options=light_theme",
+      "A web app that generates customized prompts from templates for LLMs in tasks like content creation, code generation, etc.",
+    category: "💻 Web Development",
+    techStack: ["Next.js", "Tailwind CSS", "daisyUI"],
+    link: "https://promptpp.vercel.app/",
   },
   {
-    imageUrl: "/deephcc.jpeg",
-    imageAlt: "DeepHCC",
-    title: "DeepHCC",
+    imageUrl: "/keepactive.jpeg",
+    imageAlt: "KeepActive",
+    title: "KeepActive",
     description:
-      "A YOLOv5m-based model for real-time particle detection in cloud chambers (F1: 86.24%, 61 FPS), designed as an innovative tool for physics education.",
-    category: "🤖 Machine Learning",
-    techStack: ["Python", "OpenCV", "PyTorch"],
-    link: "https://iopscience.iop.org/article/10.1088/1742-6596/2653/1/012007",
-  },
+      "A web app that maintains active status for user websites on free hosting by sending periodic GET requests.",
+    category: "💻 Web Development",
+    techStack: ["Gin", "GORM", "React", "Material UI"],
+    link: "https://keepactive-frontend.vercel.app/",
+  }
 ];
 
 const categories = [

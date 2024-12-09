@@ -5,6 +5,16 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    imageUrl: "/galaxy10_anomaly_detection.webp",
+    imageAlt: "Galaxy10 Anomaly Detection",
+    title: "Anomalous Galaxies",
+    description:
+      "A PyTorch pipeline for training and identifying anomalous galaxies from Galaxy10 DECals dataset using ResNet50, autoencoders, K-means clustering, and DBSCAN.",
+    category: "🤖 Machine Learning",
+    techStack: ["Python", "PyTorch", "Kaggle Notebook"],
+    link: "https://github.com/oadultradeepfield/galaxy10-anomaly-detection",
+  },
+  {
     imageUrl: "/strassen.png",
     imageAlt: "Strassen Algorithm",
     title: "Strassen Algo.",

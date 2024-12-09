@@ -9,7 +9,7 @@ const projects = [
     imageAlt: "Galaxy10 Anomaly Detection",
     title: "Anomalous Galaxies",
     description:
-      "A PyTorch pipeline for training and identifying anomalous galaxies from the Galaxy10 DECals dataset using ResNet50, autoencoders, K-means clustering, and DBSCAN.",
+      "A PyTorch pipeline for training and identifying anomalous galaxies from Galaxy10 DECals using ResNet50, autoencoders, K-means clustering, and DBSCAN.",
     category: "🤖 ML/AI",
     techStack: ["Python", "PyTorch", "Kaggle Notebook"],
     link: "https://github.com/oadultradeepfield/galaxy10-anomaly-detection",
@@ -89,8 +89,8 @@ const projects = [
 const categories = [
   "🌐 All Projects",
   "🌟 Pet Projects",
-  "💻 Web Dev",
   "🤖 ML/AI",
+  "💻 Web Dev",
 ];
 
 const Projects: React.FC = () => {

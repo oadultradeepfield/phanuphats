@@ -9,8 +9,8 @@ const projects = [
     imageAlt: "Galaxy10 Anomaly Detection",
     title: "Anomalous Galaxies",
     description:
-      "A PyTorch pipeline for training and identifying anomalous galaxies from Galaxy10 DECals dataset using ResNet50, autoencoders, K-means clustering, and DBSCAN.",
-    category: "🤖 Machine Learning",
+      "A PyTorch pipeline for training and identifying anomalous galaxies from the Galaxy10 DECals dataset using ResNet50, autoencoders, K-means clustering, and DBSCAN.",
+    category: "🤖 ML/AI",
     techStack: ["Python", "PyTorch", "Kaggle Notebook"],
     link: "https://github.com/oadultradeepfield/galaxy10-anomaly-detection",
   },
@@ -30,7 +30,7 @@ const projects = [
     title: "Galaxy10",
     description:
       "A Streamlit app for galaxy morphology classification using ConvNeXtTiny (76.80% Top-1 and 95.51% Top-3 accuracy). The model outperformed VGG16, DenseNet121, and EfficientNetV2S by 5% in accuracy.",
-    category: "🤖 Machine Learning",
+    category: "🤖 ML/AI",
     techStack: ["Python", "Streamlit", "PyTorch"],
     link: "https://tao21-galaxyclassification.streamlit.app/?embed_options=light_theme",
   },
@@ -40,7 +40,7 @@ const projects = [
     title: "DeepHCC",
     description:
       "A YOLOv5m-based model for real-time particle detection in cloud chambers (F1: 86.24%, 61 FPS), designed as an innovative tool for physics education.",
-    category: "🤖 Machine Learning",
+    category: "🤖 ML/AI",
     techStack: ["Python", "OpenCV", "PyTorch"],
     link: "https://iopscience.iop.org/article/10.1088/1742-6596/2653/1/012007",
   },
@@ -50,7 +50,7 @@ const projects = [
     title: "TSViz",
     description:
       "An interactive Streamlit app for visualizing time series data, allowing real-time analysis with adjustable hyperparameters for ARIMA, Random Forest, and LightGBM.",
-    category: "🤖 Machine Learning",
+    category: "🤖 ML/AI",
     techStack: ["Python", "Streamlit", "Scikit-learn"],
     link: "https://timeseriesviz.streamlit.app/",
   },
@@ -60,7 +60,7 @@ const projects = [
     title: "UniFliXsg",
     description:
       "A semantic search application using all-MiniLM-L6-v2, deployed on Hugging Face via Gradio, to recommend undergraduate programs in Singapore based on user interests and career goals.",
-    category: "🤖 Machine Learning",
+    category: "🤖 ML/AI",
     techStack: ["Python", "Hugging Face", "Gradio"],
     link: "https://huggingface.co/spaces/oadultradeepfield/uniflixsg",
   },
@@ -70,7 +70,7 @@ const projects = [
     title: "Prompt++",
     description:
       "A web app that generates customized prompts from templates for LLMs in tasks like content creation, code generation, etc.",
-    category: "💻 Web Development",
+    category: "💻 Web Dev",
     techStack: ["Next.js", "Tailwind CSS", "daisyUI"],
     link: "https://promptpp.vercel.app/",
   },
@@ -80,7 +80,7 @@ const projects = [
     title: "KeepActive",
     description:
       "A web app that maintains active status for user websites on free hosting by sending periodic GET requests.",
-    category: "💻 Web Development",
+    category: "💻 Web Dev",
     techStack: ["Gin", "GORM", "React", "Material UI"],
     link: "https://keepactive-frontend.vercel.app/",
   }
@@ -89,8 +89,8 @@ const projects = [
 const categories = [
   "🌐 All Projects",
   "🌟 Pet Projects",
-  "💻 Web Development",
-  "🤖 Machine Learning",
+  "💻 Web Dev",
+  "🤖 ML/AI",
 ];
 
 const Projects: React.FC = () => {

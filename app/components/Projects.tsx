@@ -35,16 +35,6 @@ const projects = [
     link: "https://github.com/oadultradeepfield/parallel-and-strassen-matrix-multiplication",
   },
   {
-    imageUrl: "/galaxy10.png",
-    imageAlt: "Galaxy10",
-    title: "Galaxy10",
-    description:
-      "A Streamlit app for galaxy morphology classification using ConvNeXtTiny (76.80% Top-1 and 95.51% Top-3 accuracy). The model outperformed VGG16, DenseNet121, and EfficientNetV2S by 5% in accuracy.",
-    category: "🤖 ML/AI",
-    techStack: ["Python", "Streamlit", "PyTorch"],
-    link: "https://tao21-galaxyclassification.streamlit.app/?embed_options=light_theme",
-  },
-  {
     imageUrl: "/deephcc.jpeg",
     imageAlt: "DeepHCC",
     title: "DeepHCC",

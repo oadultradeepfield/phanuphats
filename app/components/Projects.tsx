@@ -5,6 +5,16 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    imageUrl: "/three_body_simulation.webp",
+    imageAlt: "Three Body Simulation",
+    title: "3-Body Sim.",
+    description:
+      "A C++ program that simulates the motion of three objects under Newton's law of gravitation approximated with the fourth-order Runge-Kutta method.",
+    category: "🌟 Pet Projects",
+    techStack: ["C++", "Python"],
+    link: "https://github.com/oadultradeepfield/three-body-simulation",
+  },
+  {
     imageUrl: "/galaxy10_anomaly_detection.webp",
     imageAlt: "Galaxy10 Anomaly Detection",
     title: "Anomalous Galaxies",

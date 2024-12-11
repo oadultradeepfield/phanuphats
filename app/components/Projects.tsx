@@ -9,20 +9,10 @@ const projects = [
     imageAlt: "Generalized N-Body Simulation",
     title: "N-Body Sim.",
     description:
-      "The previous 3-Body Simulation program in C++ generalized to an N-Body simulation, with support for both spherical and Cartesian coordinate systems.",
+      "A C++ program that simulates the motion of N objects under Newton's law of gravitation approximated with the fourth-order Runge-Kutta method.",
     category: "🌟 Pet Projects",
     techStack: ["C++", "Python"],
     link: "https://github.com/oadultradeepfield/generalized-n-body-simulation",
-  },
-  {
-    imageUrl: "/three_body_simulation.webp",
-    imageAlt: "Three Body Simulation",
-    title: "3-Body Sim.",
-    description:
-      "A C++ program that simulates the motion of three objects under Newton's law of gravitation approximated with the fourth-order Runge-Kutta method.",
-    category: "🌟 Pet Projects",
-    techStack: ["C++", "Python"],
-    link: "https://github.com/oadultradeepfield/three-body-simulation",
   },
   {
     imageUrl: "/galaxy10_anomaly_detection.webp",

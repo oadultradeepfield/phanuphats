@@ -15,6 +15,16 @@ const projects = [
     link: "https://github.com/oadultradeepfield/generalized-n-body-simulation",
   },
   {
+    imageUrl: "/olympliance.webp",
+    imageAlt: "Olympliance",
+    title: "Olympliance",
+    description:
+      "A web forum created for students to discuss Science Olympiad problems in preparation for competitions, developed as part of the CVWO Assignment for AY2024/25.",
+    category: "💻 Web Dev",
+    techStack: ["React TS", "Go", "PostgreSQL", "Docker"],
+    link: "https://olympliance.netlify.app/",
+  },
+  {
     imageUrl: "/galaxy10_anomaly_detection.webp",
     imageAlt: "Galaxy10 Anomaly Detection",
     title: "Anomalous Galaxies",
@@ -55,16 +65,6 @@ const projects = [
     link: "https://timeseriesviz.streamlit.app/",
   },
   {
-    imageUrl: "/uniflixsg.jpeg",
-    imageAlt: "UniFliXsg",
-    title: "UniFliXsg",
-    description:
-      "A semantic search application using all-MiniLM-L6-v2, deployed on Hugging Face via Gradio, to recommend undergraduate programs in Singapore based on user interests and career goals.",
-    category: "🤖 ML/AI",
-    techStack: ["Python", "Hugging Face", "Gradio"],
-    link: "https://huggingface.co/spaces/oadultradeepfield/uniflixsg",
-  },
-  {
     imageUrl: "/promptpp.webp",
     imageAlt: "Prompt++",
     title: "Prompt++",
@@ -74,16 +74,6 @@ const projects = [
     techStack: ["Next.js", "Tailwind CSS", "daisyUI"],
     link: "https://promptpp.vercel.app/",
   },
-  {
-    imageUrl: "/keepactive.jpeg",
-    imageAlt: "KeepActive",
-    title: "KeepActive",
-    description:
-      "A web app that maintains active status for user websites on free hosting by sending periodic GET requests.",
-    category: "💻 Web Dev",
-    techStack: ["Gin", "GORM", "React", "Material UI"],
-    link: "https://keepactive-frontend.vercel.app/",
-  }
 ];
 
 const categories = [

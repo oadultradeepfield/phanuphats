@@ -28,7 +28,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     >
       <div className="card h-full w-96 transform border-2 border-[#e0e0e0] bg-base-100 shadow-lg transition-all duration-200 hover:scale-105 hover:shadow-2xl">
         {/* Image container with 3:2 aspect ratio */}
-        <figure className="relative w-full pt-[56.25%]">
+        <figure className="relative w-full pt-[66.67%]">
           <Image
             src={imageUrl}
             alt={imageAlt}

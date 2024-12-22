@@ -14,18 +14,6 @@ export const metadata: Metadata = {
           I enjoy: improving everyday processes to make them faster and more
           fun, and creating interactive tools that make learning engaging and
           exciting.`,
-  keywords: [
-    "Portfolio",
-    "Software Engineer",
-    "Web Development",
-    "Functional Programming",
-    "Machine Learning",
-    "Performance Optimization",
-    "Oad",
-    "Phanuphat Srisukhawasu",
-    "Numerical Linear Algebra",
-    "Deep Learning",
-  ],
 };
 
 export default function RootLayout({

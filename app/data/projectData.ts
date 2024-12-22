@@ -1,9 +1,21 @@
-"use client";
+export const categories = [
+  "🌐 All Projects",
+  "🌟 Pet Projects",
+  "🤖 ML/AI",
+  "💻 Web Dev",
+] as const;
 
-import { useState } from "react";
-import ProjectCard from "./ProjectCard";
+export type Category = (typeof categories)[number];
 
-const projects = [
+export const projects: {
+  imageUrl: string;
+  imageAlt: string;
+  title: string;
+  description: string;
+  category: Category;
+  techStack: string[];
+  link: string;
+}[] = [
   {
     imageUrl: "/n_bodies.webp",
     imageAlt: "Generalized N-Body Simulation",
@@ -31,11 +43,11 @@ const projects = [
     description:
       "A PyTorch pipeline for training and identifying anomalous galaxies from Galaxy10 DECals using ResNet50, autoencoders, K-means clustering, and DBSCAN.",
     category: "🤖 ML/AI",
-    techStack: ["Python", "PyTorch", "Kaggle Notebook"],
+    techStack: ["Python", "PyTorch", "Kaggle"],
     link: "https://github.com/oadultradeepfield/galaxy10-anomaly-detection",
   },
   {
-    imageUrl: "/strassen.png",
+    imageUrl: "/strassen.webp",
     imageAlt: "Strassen Algorithm",
     title: "Strassen Algo.",
     description:
@@ -45,7 +57,7 @@ const projects = [
     link: "https://github.com/oadultradeepfield/parallel-and-strassen-matrix-multiplication",
   },
   {
-    imageUrl: "/deephcc.jpeg",
+    imageUrl: "/deephcc.webp",
     imageAlt: "DeepHCC",
     title: "DeepHCC",
     description:
@@ -60,71 +72,8 @@ const projects = [
     title: "TSViz",
     description:
       "An interactive Streamlit app for visualizing time series data, allowing real-time analysis with adjustable hyperparameters for ARIMA, Random Forest, and LightGBM.",
-    category: "🤖 ML/AI",
-    techStack: ["Python", "Streamlit", "Scikit-learn"],
-    link: "https://timeseriesviz.streamlit.app/",
-  },
-  {
-    imageUrl: "/promptpp.webp",
-    imageAlt: "Prompt++",
-    title: "Prompt++",
-    description:
-      "A web app that generates customized prompts from templates for LLMs in tasks like content creation, code generation, etc.",
     category: "💻 Web Dev",
-    techStack: ["Next.js", "Tailwind CSS", "daisyUI"],
-    link: "https://promptpp.vercel.app/",
+    techStack: ["Python", "Streamlit", "Docker", "GCP"],
+    link: "https://tsviz-k6hhpljmkq-as.a.run.app/",
   },
 ];
-
-const categories = [
-  "🌐 All Projects",
-  "🌟 Pet Projects",
-  "🤖 ML/AI",
-  "💻 Web Dev",
-];
-
-const Projects: React.FC = () => {
-  const [selectedCategory, setSelectedCategory] =
-    useState<string>("🌐 All Projects");
-
-  const filteredProjects =
-    selectedCategory === "🌐 All Projects"
-      ? projects
-      : projects.filter((project) => project.category === selectedCategory);
-
-  return (
-    <div className="mb-8 flex flex-col items-center p-4">
-      <div className="mb-8 mt-4 flex flex-wrap justify-center gap-3">
-        {categories.map((category) => (
-          <button
-            key={category}
-            onClick={() => setSelectedCategory(category)}
-            className={`btn rounded-2xl text-base hover:bg-gray-600 ${
-              selectedCategory === category ? "btn-neutral" : "btn-outline"
-            }`}
-          >
-            {category}
-          </button>
-        ))}
-      </div>
-
-      <div className="grid auto-rows-fr grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
-        {filteredProjects.map((project, index) => (
-          <div key={index} className="h-full">
-            <ProjectCard
-              imageUrl={project.imageUrl}
-              imageAlt={project.imageAlt}
-              title={project.title}
-              description={project.description}
-              category={project.category}
-              techStack={project.techStack}
-              link={project.link}
-            />
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-export default Projects;

@@ -74,6 +74,6 @@ export const projects: {
       "An interactive Streamlit app for visualizing time series data, allowing real-time analysis with adjustable hyperparameters for ARIMA, Random Forest, and LightGBM.",
     category: "💻 Web Dev",
     techStack: ["Python", "Streamlit", "Docker", "GCP"],
-    link: "https://tsviz-k6hhpljmkq-as.a.run.app/",
+    link: "https://tsviz.phanuphats.com/",
   },
 ];

@@ -1,8 +1,9 @@
+import Link from "next/link";
 import { IoLogoGithub } from "react-icons/io";
 
 const GitHub = () => {
   return (
-    <a
+    <Link
       href="https://github.com/oadultradeepfield"
       target="_blank"
       rel="noopener noreferrer"
@@ -10,7 +11,7 @@ const GitHub = () => {
       className="transition-colors hover:text-gray-600"
     >
       <IoLogoGithub size={24} />
-    </a>
+    </Link>
   );
 };
 

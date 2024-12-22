@@ -12,7 +12,7 @@ const Avatar = () => {
           className="h-full w-full object-cover"
         />
       </div>
-      <a className="xs:text-xl font-bold sm:text-2xl">Phanuphat S.</a>
+      <div className="xs:text-xl font-bold sm:text-2xl">Phanuphat S.</div>
     </div>
   );
 };

@@ -3,6 +3,7 @@ import ProjectHeader from "./ProjectHeader";
 import ProjectDescription from "./ProjectDescription";
 import ProjectTechStack from "./ProjectTechStack";
 import { Category } from "@/app/data/projectData";
+import Link from "next/link";
 
 interface ProjectCardProps {
   imageUrl: string;
@@ -24,7 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   link,
 }) => {
   return (
-    <a
+    <Link
       href={link}
       target="_blank"
       rel="noopener noreferrer"
@@ -40,7 +41,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <ProjectTechStack techStack={techStack} />
         </div>
       </div>
-    </a>
+    </Link>
   );
 };
 

@@ -1,8 +1,9 @@
 import { FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 const LinkedIn = () => {
   return (
-    <a
+    <Link
       href="https://www.linkedin.com/in/phanuphats/"
       target="_blank"
       rel="noopener noreferrer"
@@ -10,7 +11,7 @@ const LinkedIn = () => {
       className="transition-colors hover:text-gray-600"
     >
       <FaLinkedin size={24} />
-    </a>
+    </Link>
   );
 };
 

@@ -1,8 +1,9 @@
+import Link from "next/link";
 import { FaBlog } from "react-icons/fa";
 
 const Blog = () => {
   return (
-    <a
+    <Link
       href="https://blog.phanuphats.com"
       target="_blank"
       rel="noopener noreferrer"
@@ -10,7 +11,7 @@ const Blog = () => {
       className="transition-colors hover:text-gray-600"
     >
       <FaBlog size={24} />
-    </a>
+    </Link>
   );
 };
 

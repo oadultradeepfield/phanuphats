@@ -17,7 +17,7 @@ export const projects: {
   link: string;
 }[] = [
   {
-    imageUrl: "/n_bodies.webp",
+    imageUrl: "/images/n_bodies.webp",
     imageAlt: "Generalized N-Body Simulation",
     title: "N-Body Sim.",
     description:
@@ -27,7 +27,7 @@ export const projects: {
     link: "https://github.com/oadultradeepfield/generalized-n-body-simulation",
   },
   {
-    imageUrl: "/olympliance.webp",
+    imageUrl: "/images/olympliance.webp",
     imageAlt: "Olympliance",
     title: "Olympliance",
     description:
@@ -37,7 +37,7 @@ export const projects: {
     link: "https://olympliance.netlify.app/",
   },
   {
-    imageUrl: "/galaxy10_anomaly_detection.webp",
+    imageUrl: "/images/galaxy10_anomaly_detection.webp",
     imageAlt: "Galaxy10 Anomaly Detection",
     title: "Anomalous Galaxies",
     description:
@@ -47,7 +47,7 @@ export const projects: {
     link: "https://github.com/oadultradeepfield/galaxy10-anomaly-detection",
   },
   {
-    imageUrl: "/strassen.webp",
+    imageUrl: "/images/strassen.webp",
     imageAlt: "Strassen Algorithm",
     title: "Strassen Algo.",
     description:
@@ -57,7 +57,7 @@ export const projects: {
     link: "https://github.com/oadultradeepfield/parallel-and-strassen-matrix-multiplication",
   },
   {
-    imageUrl: "/deephcc.webp",
+    imageUrl: "/images/deephcc.webp",
     imageAlt: "DeepHCC",
     title: "DeepHCC",
     description:
@@ -67,7 +67,7 @@ export const projects: {
     link: "https://iopscience.iop.org/article/10.1088/1742-6596/2653/1/012007",
   },
   {
-    imageUrl: "/timeseriesviz.webp",
+    imageUrl: "/images/timeseriesviz.webp",
     imageAlt: "TimeSeriesViz",
     title: "TSViz",
     description:

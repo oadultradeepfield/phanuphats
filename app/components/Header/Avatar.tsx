@@ -5,7 +5,7 @@ const Avatar = () => {
     <div className="navbar-start flex items-center gap-3">
       <div className="h-10 w-10 overflow-hidden rounded-full">
         <Image
-          src="/myimage.webp"
+          src="/images/myimage.webp"
           alt="Phanuphat S."
           width={500}
           height={500}

@@ -16,7 +16,7 @@ const ProjectList: React.FC = () => {
 
   return (
     <div className="mb-8 flex flex-col items-center">
-      <div className="mb-8 mt-4 flex flex-wrap justify-center gap-3">
+      <div className="mb-8 mt-4 px-6 flex flex-wrap justify-center gap-3">
         {categories.map((category) => (
           <CategoryButton
             key={category}

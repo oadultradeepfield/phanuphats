@@ -1,8 +1,8 @@
 export const categories = [
   "🌐 All Projects",
-  "🌟 Pet Projects",
-  "🤖 ML/AI",
   "💻 Web Dev",
+  "🤖 ML/AI",
+  "🌟 Pet Projects",
 ] as const;
 
 export type Category = (typeof categories)[number];
@@ -17,16 +17,6 @@ export const projects: {
   link: string;
 }[] = [
   {
-    imageUrl: "/images/n_bodies.webp",
-    imageAlt: "Generalized N-Body Simulation",
-    title: "N-Body Sim.",
-    description:
-      "A C++ program that simulates the motion of N objects under Newton's law of gravitation approximated with the fourth-order Runge-Kutta method.",
-    category: "🌟 Pet Projects",
-    techStack: ["C++", "Python"],
-    link: "https://github.com/oadultradeepfield/generalized-n-body-simulation",
-  },
-  {
     imageUrl: "/images/olympliance.webp",
     imageAlt: "Olympliance",
     title: "Olympliance",
@@ -37,24 +27,24 @@ export const projects: {
     link: "https://olympliance.netlify.app/",
   },
   {
-    imageUrl: "/images/galaxy10_anomaly_detection.webp",
-    imageAlt: "Galaxy10 Anomaly Detection",
-    title: "Anomalous Galaxies",
+    imageUrl: "/images/uniflixsg.webp",
+    imageAlt: "UniFliXsg",
+    title: "UniFliXsg",
     description:
-      "A PyTorch pipeline for training and identifying anomalous galaxies from Galaxy10 DECals using ResNet50, autoencoders, K-means clustering, and DBSCAN.",
-    category: "🤖 ML/AI",
-    techStack: ["Python", "PyTorch", "Kaggle"],
-    link: "https://github.com/oadultradeepfield/galaxy10-anomaly-detection",
+      "A web app that recommends undergraduate programs from Singapore universities based on semantic search of user queries by utilizing AI language models.",
+    category: "💻 Web Dev",
+    techStack: ["Svelte", "Prisma", "Hugging Face", "Flask"],
+    link: "https://uniflixsg.vercel.app/",
   },
   {
-    imageUrl: "/images/strassen.webp",
-    imageAlt: "Strassen Algorithm",
-    title: "Strassen Algo.",
+    imageUrl: "/images/n_bodies.webp",
+    imageAlt: "N-Body Orbit Simulation",
+    title: "N-Body Orbit",
     description:
-      "An implementation of Strassen's matrix multiplication and standard method with parallel processing capabilities.",
+      "A C++ program that simulates the motion of N objects under Newton's law of gravitation approximated with the fourth-order Runge-Kutta method.",
     category: "🌟 Pet Projects",
-    techStack: ["Java", "Fork/Join framework"],
-    link: "https://github.com/oadultradeepfield/parallel-and-strassen-matrix-multiplication",
+    techStack: ["C++", "Python"],
+    link: "https://github.com/oadultradeepfield/generalized-n-body-simulation",
   },
   {
     imageUrl: "/images/deephcc.webp",
@@ -67,6 +57,16 @@ export const projects: {
     link: "https://iopscience.iop.org/article/10.1088/1742-6596/2653/1/012007",
   },
   {
+    imageUrl: "/images/galaxy10_anomaly_detection.webp",
+    imageAlt: "Galaxy10 Anomaly Detection",
+    title: "Anomalous Galaxies",
+    description:
+      "A PyTorch pipeline for training and identifying anomalous galaxies from Galaxy10 DECals using ResNet50, autoencoders, K-means clustering, and DBSCAN.",
+    category: "🤖 ML/AI",
+    techStack: ["Python", "PyTorch", "Kaggle"],
+    link: "https://github.com/oadultradeepfield/galaxy10-anomaly-detection",
+  },
+  {
     imageUrl: "/images/timeseriesviz.webp",
     imageAlt: "TimeSeriesViz",
     title: "TSViz",
@@ -75,5 +75,15 @@ export const projects: {
     category: "💻 Web Dev",
     techStack: ["Python", "Streamlit", "Docker", "GCP"],
     link: "https://tsviz-k6hhpljmkq-as.a.run.app/",
+  },
+  {
+    imageUrl: "/images/strassen.webp",
+    imageAlt: "Strassen Algorithm",
+    title: "Strassen Algo.",
+    description:
+      "An implementation of Strassen's matrix multiplication and standard method with parallel processing capabilities.",
+    category: "🌟 Pet Projects",
+    techStack: ["Java", "Fork/Join framework"],
+    link: "https://github.com/oadultradeepfield/parallel-and-strassen-matrix-multiplication",
   },
 ];

@@ -23,7 +23,7 @@ export const projects: {
     description:
       "A web forum created for students to discuss Science Olympiad problems in preparation for competitions, developed as part of the CVWO Assignment for AY2024/25.",
     category: "💻 Web Dev",
-    techStack: ["React TS", "Go", "PostgreSQL", "Docker"],
+    techStack: ["React", "Go", "PostgreSQL", "Docker"],
     link: "https://olympliance.netlify.app/",
   },
   {
@@ -35,6 +35,16 @@ export const projects: {
     category: "💻 Web Dev",
     techStack: ["Svelte", "Prisma", "Hugging Face", "Flask"],
     link: "https://uniflixsg.vercel.app/",
+  },
+  {
+    imageUrl: "/images/galilean.webp",
+    imageAlt: "Galilean",
+    title: "Galilean",
+    description:
+      "A Python CLI for planetary image processing that integrates features from the famous software: PIPP, AutoStakkert!, and RegiStax into a streamlined interface.",
+    category: "🌟 Pet Projects",
+    techStack: ["Python", "OpenCV", "Svelte"],
+    link: "https://galilean.phanuphats.com/",
   },
   {
     imageUrl: "/images/n_bodies.webp",

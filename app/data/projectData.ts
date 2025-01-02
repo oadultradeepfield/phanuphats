@@ -17,46 +17,6 @@ export const projects: {
   link: string;
 }[] = [
   {
-    imageUrl: "/images/olympliance.webp",
-    imageAlt: "Olympliance",
-    title: "Olympliance",
-    description:
-      "A web forum created for students to discuss Science Olympiad problems in preparation for competitions, developed as part of the CVWO Assignment for AY2024/25.",
-    category: "💻 Web Dev",
-    techStack: ["React", "Go", "PostgreSQL", "Docker"],
-    link: "https://olympliance.netlify.app/",
-  },
-  {
-    imageUrl: "/images/uniflixsg.webp",
-    imageAlt: "UniFliXsg",
-    title: "UniFliXsg",
-    description:
-      "A web app that recommends undergraduate programs from Singapore universities based on semantic search of user queries by utilizing AI language models.",
-    category: "💻 Web Dev",
-    techStack: ["Svelte", "Prisma", "Hugging Face", "Flask"],
-    link: "https://uniflixsg.vercel.app/",
-  },
-  {
-    imageUrl: "/images/galilean.webp",
-    imageAlt: "Galilean",
-    title: "Galilean",
-    description:
-      "A Python CLI for planetary image processing that integrates features from the famous software: PIPP, AutoStakkert!, and RegiStax into a streamlined interface.",
-    category: "🌟 Pet Projects",
-    techStack: ["Python", "OpenCV", "Svelte"],
-    link: "https://galilean.phanuphats.com/",
-  },
-  {
-    imageUrl: "/images/n_bodies.webp",
-    imageAlt: "N-Body Orbit Simulation",
-    title: "N-Body Orbit",
-    description:
-      "A C++ program that simulates the motion of N objects under Newton's law of gravitation approximated with the fourth-order Runge-Kutta method.",
-    category: "🌟 Pet Projects",
-    techStack: ["C++", "Python"],
-    link: "https://github.com/oadultradeepfield/generalized-n-body-simulation",
-  },
-  {
     imageUrl: "/images/deephcc.webp",
     imageAlt: "DeepHCC",
     title: "DeepHCC",
@@ -77,6 +37,36 @@ export const projects: {
     link: "https://github.com/oadultradeepfield/galaxy10-anomaly-detection",
   },
   {
+    imageUrl: "/images/n_bodies.webp",
+    imageAlt: "N-Body Orbit Simulation",
+    title: "N-Body Orbit",
+    description:
+      "A C++ program that simulates the motion of N objects under Newton's law of gravitation approximated with the fourth-order Runge-Kutta method.",
+    category: "🌟 Pet Projects",
+    techStack: ["C++", "Python"],
+    link: "https://github.com/oadultradeepfield/generalized-n-body-simulation",
+  },
+   {
+    imageUrl: "/images/uniflixsg.webp",
+    imageAlt: "UniFliXsg",
+    title: "UniFliXsg",
+    description:
+      "A web app that recommends undergraduate programs from Singapore universities based on semantic search of user queries by utilizing AI language models.",
+    category: "💻 Web Dev",
+    techStack: ["Svelte", "Prisma", "Hugging Face", "Flask"],
+    link: "https://uniflixsg.vercel.app/",
+  },
+   {
+    imageUrl: "/images/olympliance.webp",
+    imageAlt: "Olympliance",
+    title: "Olympliance",
+    description:
+      "A web forum created for students to discuss Science Olympiad problems in preparation for competitions, developed as part of the CVWO Assignment for AY2024/25.",
+    category: "💻 Web Dev",
+    techStack: ["React", "Go", "PostgreSQL", "Docker"],
+    link: "https://olympliance.netlify.app/",
+  },
+  {
     imageUrl: "/images/timeseriesviz.webp",
     imageAlt: "TimeSeriesViz",
     title: "TSViz",
@@ -87,13 +77,13 @@ export const projects: {
     link: "https://tsviz.phanuphats.com",
   },
   {
-    imageUrl: "/images/strassen.webp",
-    imageAlt: "Strassen Algorithm",
-    title: "Strassen Algo.",
+    imageUrl: "/images/galilean.webp",
+    imageAlt: "Galilean",
+    title: "Galilean",
     description:
-      "An implementation of Strassen's matrix multiplication and standard method with parallel processing capabilities.",
+      "A Python CLI for planetary image processing that integrates features from the famous software: PIPP, AutoStakkert!, and RegiStax into a streamlined interface.",
     category: "🌟 Pet Projects",
-    techStack: ["Java", "Fork/Join framework"],
-    link: "https://github.com/oadultradeepfield/parallel-and-strassen-matrix-multiplication",
+    techStack: ["Python", "OpenCV", "Svelte"],
+    link: "https://galilean.phanuphats.com/",
   },
 ];
